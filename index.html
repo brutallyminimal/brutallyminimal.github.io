@@ -1,12 +1,32 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Vinod Ramamoorthy</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Merriweather:400,700,700i|Space+Mono:700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://indestructibletype.com/fonts/" crossorigin>
+	<link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+
 	<link rel="stylesheet" href="css/styles.css">
+
+	<script type="text/javascript">
+		function getDayOfWeek() {
+			var d = new Date();
+			var weekday = new Array(7);
+			weekday[0] = "Sunday";
+			weekday[1] = "Monday";
+			weekday[2] = "Tuesday";
+			weekday[3] = "Wednesday";
+			weekday[4] = "Thursday";
+			weekday[5] = "Friday";
+			weekday[6] = "Saturday";
+
+			var n = weekday[d.getDay()];
+			document.getElementById("day").innerHTML = n;
+		}
+
+		window.onload = getDayOfWeek;
+	</script>
 </head>
 <body>
 
@@ -15,14 +35,14 @@
 	<header>
 		<h1>👋🏽Hello, I’m <span class="underline">Vinod</span>.</h1>
 		<nav>
-			<a href="#">Download resume</a>
+			<a href="#">Resume</a>
 			<a href="#">Contact</a>
 		</nav>
 	</header>
 
 	<section id="elevator">
 		
-		<h1>I’m a seasoned <span class="italics underline">Designer</span> who loves to experiment with <span class="purple"><<span class="code">/code</span>>.</span></h1>
+		<h1>I’m a seasoned Designer who loves to experiment with code.</h1>
 
 		<p>Simplifying people's lives through design and code since 2009 (well, I'm trying my best). I believe good design is — simple, focused on functionality and solves a problem for fellow humans. Empathy is my tool of choice to understand this complicated world. I'm currently looking for exciting full-time opportunities anywhere on the planet.</p>
 
@@ -33,66 +53,68 @@
 		<h1>Some of  what I’ve made so far —</h1>
 
 		<ul id="case-studies-list">
-			<li>
-				<img src="assets/captain-bus.jpg" alt="">
+			
 
-				<section>
-				<h2>DESKTOP APP • ICON BROWSER</h2>
+			<li>
+				<a href="#">
+				<img src="assets/graphite.png" alt="">
 				<h1>Graphite</h1>
-				<p>Cutting edge Android proof of concept with facial recognition for driver safety. Cutting edge Android proof of concept with facial recognition for driver safety.</p>
-				</section>
-				
+				<p>Cutting edge Android proof of concept with facial recognition for driver safety.</p>
+				</a>
 			</li>
 
 			<li>
-				<img src="assets/driver-alertness-index.jpg" alt="">
-				<section>
-				<h2>DESKTOP APP • ICON BROWSER</h2>
-				<h1>Graphite</h1>
-				<p>Cutting edge Android proof of concept with facial recognition for driver safety. Cutting edge Android proof of concept with facial recognition for driver safety.</p>
-				</section>
+				<a href="#">
+				<img src="assets/storybook.png" alt="">
+				<h1>Storybook</h1>
+				<p>Cutting edge Android proof of concept with facial recognition for driver safety.</p>
+				</a>
 			</li>
 
 			<li>
-				<img src="assets/ola-partner.jpg" alt="">
-				<section>
-				<h2>DESKTOP APP • ICON BROWSER</h2>
-				<h1>Graphite</h1>
-				<p>Cutting edge Android proof of concept with facial recognition for driver safety. Cutting edge Android proof of concept with facial recognition for driver safety.</p>	
-				</section>
+				<a href="#">
+				<img src="assets/alertness-index.png" alt="">
+				<h1>Alertness Index</h1>
+				<p>Cutting edge Android proof of concept with facial recognition for driver safety.</p>
+				</a>
 			</li>
 
 			<li>
-				<img src="assets/ola-store.jpg" alt="">
-				<section>
-				<h2>DESKTOP APP • ICON BROWSER</h2>
-				<h1>Graphite</h1>
-				<p>Cutting edge Android proof of concept with facial recognition for driver safety. Cutting edge Android proof of concept with facial recognition for driver safety.</p>
-				</section>
-				
+				<a href="#">
+				<img src="assets/captain-bus.png" alt="">
+				<h1>Captain Bus</h1>
+				<p>Cutting edge Android proof of concept with facial recognition for driver safety.</p>
+				</a>
 			</li>
 
 			<li>
-				<img src="assets/graphite.jpg" alt="">
-				<section>
-				<h2>DESKTOP APP • ICON BROWSER</h2>
-				<h1>Graphite</h1>
-				<p>Cutting edge Android proof of concept with facial recognition for driver safety. Cutting edge Android proof of concept with facial recognition for driver safety.</p>
-				</section>
+				<a href="#">
+				<img src="assets/ola-store.png" alt="">
+				<h1>Ola Store</h1>
+				<p>Cutting edge Android proof of concept with facial recognition for driver safety.</p>
+				</a>
 			</li>
 
 			<li>
-				<img src="assets/storybook.jpg" alt="">
-				<section>
-				<h2>DESKTOP APP • ICON BROWSER</h2>
-				<h1>Graphite</h1>
-				<p>Cutting edge Android proof of concept with facial recognition for driver safety. Cutting edge Android proof of concept with facial recognition for driver safety.</p>	
-				</section>
-				
+				<a href="#">
+				<img src="assets/partner-portal.png" alt="">
+				<h1>Partner Portal</h1>
+				<p>Cutting edge Android proof of concept with facial recognition for driver safety.</p>
+				</a>
 			</li>
 		</ul>
 		
 	</section>
+
+	<section id="contact">
+		<p>
+			I’m looking to solve interesting problems. Have you got any? Perfect. Lets get in touch -- <span class="bold">vinod@brutallyminimal.com</span>
+		</p>
+	</section>
+
+	<footer>
+		<p>Handmade with a lot of love. Happy <span id="day"></span>.</p>
+	</footer>
 
 	
 	
@@ -107,4 +129,4 @@
 	
 	
 </body>
-</html> -->
+</html>

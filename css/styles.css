@@ -307,6 +307,10 @@ color: #000000;
 	margin-bottom: 18px;
 }
 
+#case-studies-list{
+	justify-content: space-between;
+}
+
 #case-studies-list li{
 	
 	margin-bottom: 64px;

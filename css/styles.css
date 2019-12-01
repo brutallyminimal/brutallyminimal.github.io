@@ -188,7 +188,7 @@ img{
 }
 
 #case-studies-list h1{
-	margin-bottom: 4px;
+	margin-bottom: 0px;
 }
 
 #case-studies-list{
@@ -233,32 +233,32 @@ footer{
 
 
 body{
-	padding: 64px 16px;
+	padding: 64px 24px;
 }
 
-
+/*
 	p{
 	font-size: 16px;
 	line-height: 28px;
 	}
-
+*/
 
 
 header h1{
-	font-size: 16px;
+	font-size: 18px;
 }
 
 nav a{
-	font-size: 16px;
+	font-size: 18px;
 }
 
 #elevator h1{
-	font-size: 24px;
-	line-height: 32px;
+	font-size: 32px;
+	line-height: 48px;
 }
 
 #case-studies h1{
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 28px;
 }
 
@@ -300,31 +300,35 @@ color: #000000;
 
 #elevator{
 	margin-top: 80px;
-	margin-bottom: 48px;
+	margin-bottom: 56px;
 }
 
 #elevator h1{
-	margin-bottom: 18px;
+	margin-bottom: 24px;
+}
+
+#case-studies h1{
+	margin-bottom: 40px;
 }
 
 #case-studies-list{
-	justify-content: space-between;
+	justify-content: space-around;
+}
+
+#case-studies-list{
+	margin-bottom: 0px;
 }
 
 #case-studies-list li{
 	
-	margin-bottom: 64px;
 	text-align: center;
+	max-width: 140px;
+	margin-bottom: 24px;
 }
 
 #case-studies-list li img{
-	width: 56%;
+	width: 60%;
 	margin-bottom: 8px;
-}
-
-#case-studies-list li{
-	max-width: 140px;
-	margin-bottom: 48px;
 }
 
 #case-studies-list li p{
@@ -336,9 +340,9 @@ color: #000000;
 
 @media screen and (max-width: 340px) {
 
-header nav{
+/*header nav{
 	display: none;
-}
+}*/
 
 
 

@@ -200,14 +200,17 @@ img{
 }
 
 #case-studies-list li{
-	width: 232px;
 	margin-bottom: 64px;
+}
+
+#case-studies-list li p{
+	max-width: 232px;
 }
 
 #case-studies-list li img{
 	margin-bottom: 24px;
-	width: 46%;
-	height:46%;
+	width: 44%;
+	height:44%;
 	-webkit-filter: drop-shadow(0px 16px 24px #ccc);
     filter:         drop-shadow(0px 16px 24px #ccc);
     box-sizing: border-box;
@@ -215,7 +218,7 @@ img{
 
 #case-studies-list li a:hover{
 	text-decoration: underline;
-	text-decoration-color: #000; 
+	text-decoration-color: #000;
 }
 
 #contact{
@@ -226,3 +229,113 @@ footer{
 	margin-top: 104px;
 }
 
+@media screen and (max-width: 768px) {
+
+
+body{
+	padding: 64px 16px;
+}
+
+
+	p{
+	font-size: 16px;
+	line-height: 28px;
+	}
+
+
+
+header h1{
+	font-size: 16px;
+}
+
+nav a{
+	font-size: 16px;
+}
+
+#elevator h1{
+	font-size: 24px;
+	line-height: 32px;
+}
+
+#case-studies h1{
+	font-size: 18px;
+	line-height: 28px;
+}
+
+#case-studies-list li h1{
+
+font-size: 18px;
+line-height: 28px;
+font-weight: 600;
+
+
+}
+
+
+#contact p{
+
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+color: #000000;
+max-width: 504px;
+
+}
+
+#contact p span.bold{
+	font-weight: 500;
+}
+
+footer p{
+font-weight: 400;
+font-size: 14px;
+line-height: 40px;
+color: #000000;
+
+
+}
+
+
+/*Layout*/
+
+#elevator{
+	margin-top: 80px;
+	margin-bottom: 48px;
+}
+
+#elevator h1{
+	margin-bottom: 18px;
+}
+
+#case-studies-list li{
+	
+	margin-bottom: 64px;
+	text-align: center;
+}
+
+#case-studies-list li img{
+	width: 56%;
+	margin-bottom: 8px;
+}
+
+#case-studies-list li{
+	max-width: 140px;
+	margin-bottom: 48px;
+}
+
+#case-studies-list li p{
+	display: none;
+}
+
+}
+
+
+@media screen and (max-width: 340px) {
+
+header nav{
+	display: none;
+}
+
+
+
+}
